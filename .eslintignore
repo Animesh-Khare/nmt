@@ -1,0 +1,5 @@
+src/react-app-env.d.ts
+src/reportWebVitals.ts
+src/setupTests.ts
+craco.config.js
+lint-staged.config.js

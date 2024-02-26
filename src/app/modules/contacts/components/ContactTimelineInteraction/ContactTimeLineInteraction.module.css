@@ -1,0 +1,34 @@
+.parent_div{
+    /* border: 2px solid rebeccapurple; */
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.parent_div::-webkit-scrollbar{
+    width: 5px;
+    /* background: rebeccapurple; */
+}
+
+.addMargin {
+    margin: 10px;
+}
+.card_heading {
+    color:  #788491;
+
+    /* Heading 2 */
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    margin-bottom: 8px;
+
+    /* border: 2px solid yellowgreen; */
+
+    position: sticky;
+    top: 0;
+    z-index: 1111;
+    background: #FAFAFA;
+}
+

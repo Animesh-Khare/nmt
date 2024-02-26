@@ -1,0 +1,41 @@
+.Users_text {
+    color: var(--dark-500, #343e47);
+    font-size: 26px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.52px;
+    margin-bottom: 5px;
+}
+
+.Manage_user_text {
+    color: var(--dark-700, #415168);
+    font-size: 18px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.18px;
+}
+
+.go_back {
+    color: var(--secondary-500, #0057a2);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    text-decoration-line: underline;
+}
+
+.img_goBack_container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+    cursor: pointer;
+    max-width:200px;
+
+    /* border: 2px solid rebeccapurple; */
+}

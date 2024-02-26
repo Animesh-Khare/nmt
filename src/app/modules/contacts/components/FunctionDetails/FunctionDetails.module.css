@@ -1,0 +1,115 @@
+.grid_container {
+    /* border: 2px solid slateblue; */
+    display: flex;
+    justify-content: space-between;
+    gap: '32px';
+}
+
+.grid_one {
+    /* border: 2px solid red; */
+    width: 47%;
+}
+
+.function_details {
+    color: #333;
+
+    /* Heading 3 */
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.para_text {
+    color: var(--dark-700, #415168);
+
+    /* Tiny/Content */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    margin-top: -8px;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
+
+.label_tag {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popUp_title {
+    color: #333;
+
+    /* Heading 3 */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.preferences_text {
+    color: #000;
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mainFunctionText {
+    color: var(--dark-700, #415168);
+
+    /* Tiny/Content */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+.date_tag {
+    border-radius: 5px;
+    border: 1px solid var(--neutral-600, #9a9fa5);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 1px 4px 0px rgba(39, 47, 53, 0.08);
+    padding: 8px;
+    gap: 8px;
+    align-self: stretch;
+    outline: none;
+    width: 100%;
+}
+
+.date_tag:focus-within {
+    box-shadow: 0px 0px 0px 2px #dbf2fb, inset 0px 0px 0px 1px #77cbed;
+    border: none;
+}
+
+.tab_mobile_form {
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.form_div_container {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: auto;
+}

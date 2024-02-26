@@ -1,0 +1,16 @@
+.contact_table_container{
+    /* border: 1px solid rebeccapurple; */
+    width: 98%;
+}
+
+.common_header_component_container{
+    /* border: 2px solid rebeccapurple; */
+}
+
+.AddPadding{
+    padding-left: 20px;
+}
+
+.TopMargin{
+    margin-top: 92px;
+}

@@ -1,0 +1,73 @@
+.footer_div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    margin-bottom: 32px;
+    /* border: 2px solid rebeccapurple; */
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.cancel_btn {
+    color: var(--dark-800, #2b3645);
+
+    /* Button/medium */
+    font-size: 14px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.button_tag {
+    display: flex;
+    height: 40px;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    background: var(--secondary-500, #0057a2);
+    color: var(--white, #fffffe);
+
+    /* Button/medium */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+
+.button_tag:hover {
+    background: #0057a2;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
+
+.label_tag {
+    color: var(--dark-900, #11151b);
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.makeFlexBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 64vh;  */
+
+}

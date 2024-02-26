@@ -1,0 +1,40 @@
+.card_heading{
+    font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+color: var(--dark-800, #383838);
+text-overflow: ellipsis;
+
+}
+
+.card_content {
+    font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+color: var(--dark-700, #6F7175);
+}
+
+.card_footer {
+    border-radius: 3px;
+background: var(--primary-500, #EE7000);
+display: flex;
+padding: 2px 4px;
+align-items: center;
+gap: 4px;
+color:white
+
+}
+.deadline{
+    color: var(--dark-800, #383838);
+text-overflow: ellipsis;
+/* Tiny/Content */
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; 
+}

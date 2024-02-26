@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* display: block; */
+}
+
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"); */
+
+/* .css-1fdsijx-ValueContainer {
+    font-size: 12px;
+}
+
+.css-13cymwt-control {
+    border: none;
+}
+
+.css-13cymwt-control:focus-within {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 0px 2px #dbf2fb, inset 0px 0px 0px 1px #77cbed;
+    border-radius: 5px;
+} */
+
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway-Regular'), url('../fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: local('Lato-Regular'), url('../fonts/Lato-Medium.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Lato', Raleway !important;
+    font-display: swap;
+}
+
+:root {
+    --primary-font: 'Lato';
+}

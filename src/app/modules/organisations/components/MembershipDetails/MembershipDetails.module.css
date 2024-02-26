@@ -1,0 +1,67 @@
+.card_heading {
+    color: var(--neutral-600, #788491);
+
+    /* Heading 2 */
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    margin-bottom: 8px;
+}
+
+.grid_heading {
+    color: var(--neutral-400, #a4c2db);
+
+    /* Heading 6 */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.grid_title {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.grid_value {
+    color: var(--dark-900, #11151b);
+
+    /* Input/content */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.invitations_msg {
+    color: var(--neutral-500, #75a3c8);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.organisation_address {
+    /* border: 2px solid rebeccapurple; */
+    height: 197px;
+}
+
+.mobile {
+    height: 80px;
+}
+
+.card {
+    height: 100%;
+}

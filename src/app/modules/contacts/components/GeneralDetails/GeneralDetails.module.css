@@ -1,0 +1,81 @@
+.card_heading {
+    color: var(--neutral-600, #788491);
+    /* Heading 2 */
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.44px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid_heading {
+    color: var(--neutral-400, #a4c2db);
+    /* Heading 6 */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.grid_title {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.grid_value {
+    color: var(--dark-900, #11151b);
+
+    /* Input/content */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-break: anywhere;
+}
+
+.invitations_msg {
+    color: var(--neutral-500, #75a3c8);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading_text {
+    color: #2b3645;
+
+    /* Heading 1 */
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.52px;
+}
+
+.btn_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}

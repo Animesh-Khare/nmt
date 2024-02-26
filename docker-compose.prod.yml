@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+    app:
+        container_name: web-app-prod
+        image: web-app-prod
+        build:
+            context: .
+            dockerfile: 'Dockerfile.prod'
+            target: production

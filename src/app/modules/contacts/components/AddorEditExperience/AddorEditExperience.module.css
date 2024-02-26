@@ -1,0 +1,176 @@
+.label_tag {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popUp_title {
+    color: #000;
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
+
+.preferences_text {
+    color: #000;
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mainFunctionText {
+    color: var(--dark-700, #415168);
+
+    /* Tiny/Content */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
+
+.date_tag {
+    border-radius: 5px;
+    border: 1px solid var(--neutral-600, #9a9fa5);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 1px 4px 0px rgba(39, 47, 53, 0.08);
+    padding: 8px;
+    gap: 8px;
+    align-self: stretch;
+    outline: none;
+    width: 100%;
+}
+
+.date_tag:focus-within {
+    box-shadow: 0px 0px 0px 2px #dbf2fb, inset 0px 0px 0px 1px #77cbed;
+    border: none;
+}
+
+.footer_div {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 8px;
+    align-self: stretch;
+    margin-top: 32px;
+    /* border: 2px solid red; */
+    position: sticky;
+    bottom: 0;
+    background: white;
+}
+
+.cancel_btn {
+    color: var(--dark-800, #2b3645);
+
+    /* Button/medium */
+    font-size: 14px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.button_tag {
+    display: flex;
+    height: 40px;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    background: var(--secondary-500, #0057a2);
+    color: var(--white, #fffffe);
+
+    /* Button/medium */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+
+.button_tag:hover {
+    background: #0057a2;
+}
+
+
+
+.date_picker {
+    border-radius: 5px;
+    border: 1px solid var(--neutral-600, #9a9fa5);
+
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 1px 4px 0px rgba(39, 47, 53, 0.08);
+    /* padding: 8px; */
+    gap: 8px;
+    align-self: stretch;
+    outline: none;
+    width: 100%;
+}
+
+.date_picker:focus-within {
+    box-shadow: 0px 0px 0px 2px #dbf2fb, inset 0px 0px 0px 1px #77cbed;
+    border: none;
+    outline: none;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-formControl {
+    border-width: 0;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
+
+.preferences_text {
+    color: #000;
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.date_tag {
+    border-radius: 5px;
+    border: 1px solid var(--neutral-600, #9a9fa5);
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 1px 4px 0px rgba(39, 47, 53, 0.08);
+    padding: 8px;
+    gap: 8px;
+    align-self: stretch;
+    outline: none;
+    width: 100%;
+}
+
+.date_tag:focus-within {
+    box-shadow: 0px 0px 0px 2px #dbf2fb, inset 0px 0px 0px 1px #77cbed;
+    border: none;
+}

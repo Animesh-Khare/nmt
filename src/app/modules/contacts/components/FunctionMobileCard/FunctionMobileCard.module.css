@@ -1,0 +1,115 @@
+.accordian_grid_innercard_div {
+    background: rgb(238, 239, 240);
+    padding: 15px;
+    border-radius: 6px;
+    font-size: small;
+}
+
+.authorization_text {
+    border-radius: 3px;
+    background: var(--secondary-600, #003461);
+    display: flex;
+    padding: 2px 4px;
+    align-items: center;  
+    gap: 4px;
+    color: var(--white-500, #fffffe);
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: fit-content;
+}
+
+.edit_user_container_div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit_user_btn {
+    border: 2px solid #9fc540;
+    color: #9fc540;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: small;
+    margin: 1px 15px;
+    cursor: pointer;
+}
+
+.edit_user_btn:hover {
+    box-shadow: 1px 1px 5px #9fc540;
+}
+
+.inside_icon_container {
+    text-align: right;
+}
+
+.card_inside_icon {
+    margin-left: 15px;
+}
+
+.typography_tag {
+    overflow: hidden;
+    color: var(--dark-900, #000);
+    text-overflow: ellipsis;
+    whitespace: nowrap;
+    /* Heading 6 */
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.organization_name {
+    overflow: hidden;
+    color: var(--primary-500, #ee7000);
+    text-overflow: ellipsis;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}
+
+.card_key_text {
+    color: var(--dark-900, #000);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.email_value {
+    color: var(--dark-900, #000);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.card_items {
+    color: var(--primary-500, #ee7000);
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.text {
+    overflow: hidden;
+    color: var(--dark-900, #000);
+    text-overflow: ellipsis;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 19.6px */
+}

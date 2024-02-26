@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@authentication/*": ["./src/app/modules/authentication/*"],
+            "@dashboard/*": ["./src/app/modules/dashboard/*"],
+            "@users/*": ["./src/app/modules/Users/*"],
+            "@contacts/*": ["./src/app/modules/contacts/*"],
+            "@organisations/*": ["./src/app/modules/organisations/*"],
+            "@projects/*": ["./src/app/modules/projects/*"],
+            "@leads/*": ["./src/app/modules/leads/*"],
+            "@api/*": ["./src/app/api/*"],
+            "@hooks/*": ["./src/app/hooks/*"],
+            "@routes/*": ["./src/app/routes/*"],
+            "@shared/*": ["./src/app/shared/*"],
+            "@store/*": ["./src/app/store/*"],
+            "@util/*": ["./src/app/util/*"],
+            "@app-types/*": ["./src/app/customTypes/*"],
+            "@config/*": ["./src/config/*"],
+            "@assets/*": ["./src/assets/*"],
+            "@layout/*": ["./src/app/layout/*"],
+            "@users/*": ["./src/app/modules/Users/*"],
+        }
+    }
+}
+
+

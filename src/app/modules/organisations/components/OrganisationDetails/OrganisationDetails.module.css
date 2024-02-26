@@ -1,0 +1,158 @@
+.footer_div {
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 8px;
+    align-self: stretch;
+    margin-top: 32px;
+    /* border: 2px solid red; */
+    position: sticky;
+    bottom: 0;
+    background: white;
+}
+
+.cancel_btn {
+    color: var(--dark-800, #2b3645);
+
+    /* Button/medium */
+    font-size: 14px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.button_tag {
+    display: flex;
+    height: 40px;
+    padding: 0px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 5px;
+    background: var(--secondary-500, #0057a2);
+    color: var(--white, #fffffe);
+
+    /* Button/medium */
+    font-family: Raleway;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+}
+
+.button_tag:hover {
+    background: #0057a2;
+}
+
+.popUp_title {
+    color: #333;
+
+    /* Heading 3 */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+
+    margin-bottom: 10px;
+}
+
+.input_field_container {
+    display: flex;
+    gap: 10px;
+}
+
+.switch_text {
+    color: var(--dark-900, #11151b);
+
+    /* Input/content */
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
+
+.disable {
+    background: rgba(12, 27, 42, 0.06);
+}
+
+.label_tag {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.preferences_text {
+    color: #000;
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
+
+.label_tag {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.makeFlexBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50vh;
+}
+.grid_container {
+    /* border: 2px solid slateblue; */
+    display: flex;
+    justify-content: space-between;
+    gap: '32px';
+}
+.grid_one {
+    /* border: 2px solid red; */
+    width: 47%;
+}
+.popUp_title {
+    color: #333;
+
+    /* Heading 3 */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+
+    margin-bottom: 10px;
+}

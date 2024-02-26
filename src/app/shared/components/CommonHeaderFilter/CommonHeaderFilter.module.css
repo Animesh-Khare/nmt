@@ -1,0 +1,76 @@
+.parent_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search_bar_container {
+    width: 82%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+
+    background: rgba(255, 255, 255, 0.8);
+
+    border: 1px solid #9a9fa5;
+
+    box-shadow: 0px 1px 4px rgba(39, 47, 53, 0.08);
+    border-radius: 5px;
+}
+
+.search_bar_container:focus-within {
+    box-shadow: 0px 0px 0px 2px #dbf2fb, inset 0px 0px 0px 1px #77cbed;
+    border: none;
+}
+
+.input_type {
+    border: none;
+    width: 98%;
+    outline: none;
+}
+
+.input_type::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #50606b;
+}
+
+.button_tag {
+    border-radius: 5px;
+    background: var(--secondary-500, #0057a2);
+    height: 36px;
+    padding: 0px 12px;
+    gap: 4px;
+    color: var(--white-500, #fffffe);
+    font-size: 13px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 86%;
+    letter-spacing: 0.52px;
+    text-transform: uppercase;
+}
+
+.button_tag:hover {
+    background: #0057a2;
+}
+
+.label_tag {
+    color: var(--dark-900, #11151b);
+
+    /* Input/Labels */
+    font-size: 16px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container_div {
+    margin-bottom: 10px;
+}
